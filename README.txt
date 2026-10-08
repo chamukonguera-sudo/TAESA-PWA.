@@ -1,0 +1,1 @@
+PWA TAESA con 4 turnos y cronograma semanal lunes-sábado. Cada polígono tiene múltiples registros e historial consultable al seleccionarlo. Incluye fotos, responsable, actividad, observaciones, estatus, porcentaje, respaldo/restauración JSON y modo offline. La capa satelital externa requiere conexión o caché previo.
