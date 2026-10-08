@@ -1,0 +1,29 @@
+PUBLICAR EN GITHUB PAGES
+
+1. Cree un repositorio nuevo en GitHub.
+2. Descomprima este ZIP.
+3. Suba TODOS los archivos directamente a la raíz del repositorio.
+   index.html debe quedar visible en la página principal del repositorio.
+4. Abra Settings > Pages.
+5. En Build and deployment seleccione Deploy from a branch.
+6. Seleccione la rama main, carpeta /(root), y pulse Save.
+7. Espere unos minutos y abra la dirección indicada por GitHub Pages.
+
+CONFIGURACIÓN DE LA NUBE
+
+Antes de probar el guardado, abra Supabase > SQL Editor y ejecute completo
+el archivo CONFIGURAR_SUPABASE.sql. Puede ejecutarlo nuevamente sin borrar datos.
+
+Después de reemplazar los archivos en GitHub Pages, cierre por completo la PWA
+y ábrala otra vez. La versión corregida renueva automáticamente la caché.
+
+Al abrir la PWA debe aparecer: "nube: sincronizada".
+Si aparece un mensaje rojo, la propia aplicación indicará si falta crear
+la tabla, ajustar permisos o conectarse a internet.
+
+PRUEBA RECOMENDADA
+
+1. Seleccione un polígono.
+2. Abra REGISTRO, capture una actividad, fotografía y nombres de firma.
+3. Guarde y pulse ACTUALIZAR NUBE.
+4. Genere REPORTE PDF para comprobar actividades, evidencias y firmas.
